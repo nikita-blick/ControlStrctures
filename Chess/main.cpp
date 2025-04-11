@@ -1,4 +1,4 @@
-#include<iostream>
+Ôªø#include<iostream>
 using namespace std;
 
 #define UPPER_LEFT_ANGLE  (char)218
@@ -31,7 +31,7 @@ void main()
 
 
 	int n;
-	cout << "¬‚Â‰ËÚÂ ‡ÁÏÂ ‰ÓÒÍË: "; cin >> n;
+	cout << "–í–≤–µ–¥–∏—Ç–µ —Ä–∞–∑–º–µ—Ä –¥–æ—Å–∫–∏: "; cin >> n;
 	n++;
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i <= n; i++)
@@ -55,38 +55,23 @@ void main()
 
 
 		setlocale(LC_ALL, "Russian");
-		int n; //‡ÁÏÂ ÙË„Û˚
-		cout << "¬‚Â‰ËÚÂ ‡ÁÏÂ ÙË„Û˚: "; cin >> n;
+		int n; //—Ä–∞–∑–º–µ—Ä —Ñ–∏–≥—É—Ä—ã
+		cout << "–í–≤–µ–¥–∏—Ç–µ —Ä–∞–∑–º–µ—Ä —Ñ–∏–≥—É—Ä—ã: "; cin >> n;
 
 
 		for (int i = 0; i < n; i++)
 		{
-			for (int i = 0; i < n; i++)
+			for (int a = 0; a < n; a++)
 			{
-				cout << "* ";
-			}
-			cout << endl;
-		}
-
-		for (int i = 0; i < n / 2; i++)
-		{
-			for (int j = 0; j < n ; j++)
-			{
-				if (i == 0 && j == n)cout << "* ";
-				else
+				for (int j = 0; j < n; j++)
 				{
-					cout << " ";
+					for (int k = 0; k < n; k++)
+					{
+						cout << (i )
+					}
 				}
-				cout << endl;
 			}
-		}
-		for (int i = 0; i < n; i++)
-		{
-			for (int j = 0; j < n; j++)
-			{
-				cout << "* ";
-			}
-			cout << endl;
+			
 
 		}
 
